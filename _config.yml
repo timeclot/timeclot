@@ -1,31 +1,31 @@
 ## Site Meta ##
 # The title of the website.
-title: "Lens - Elastic Designs"
+title: "TimeClot"
 # The description of the website
-description: "A Jekyll theme for photographers and photo bloggers."
+description: "Фотки из разных мест в разное время"
 # Keywords/tags for you site.
-keywords: "lens, jeykll-lens, jekyll, theme, jekyll-theme, photography, blog, photography-blog, photo-blog"
+keywords: ""
 # Your copyright message.
-copyright: "Copyright &copy; 2017 - Elastic Designs."
+copyright: "Copyright &copy; 2022 - Виталя Игошин"
 
 ## Site Configurations ##
 # 1st heading of the site.
-header: "Lens"
+header: "TimeClot"
 # 2nd heading/sub heading of the website.
-subheader: "Elastic Designs"
+subheader: ""
 # A description/bio of the website.
-bio: "A Jekyll theme for photographers and photo bloggers."
+bio: "Просто фотки, да и всё"
 social:
   # Your Twitter username.
   twitter_username: ""
   # Your Facebook username.
   facebook_username: ""
   # Your Instagram username.
-  instagram_username: ""
+  instagram_username: "timeclot"
   # GitHub username.
-  github_username: "ElasticDesigns"
+  github_username: ""
   # Your email address.
-  email: ""
+  email: "hi.timeclot@gmail.com"
 
 ## Gallery Configuration ##
 # If you modify this, also modify the `default.scope.path` key below.

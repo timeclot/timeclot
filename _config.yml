@@ -6,7 +6,7 @@ description: "Фотки из разных мест в разное время"
 # Keywords/tags for you site.
 keywords: ""
 # Your copyright message.
-copyright: "Copyright &copy; 2022 - Виталя Игошин"
+copyright: ""
 
 ## Site Configurations ##
 # 1st heading of the site.
@@ -14,14 +14,16 @@ header: "TimeClot"
 # 2nd heading/sub heading of the website.
 subheader: ""
 # A description/bio of the website.
-bio: "Просто фотки, да и всё"
+bio: ""
 social:
   # Your Twitter username.
-  twitter_username: ""
+  vk_username: "timeclot"
   # Your Facebook username.
   facebook_username: ""
   # Your Instagram username.
   instagram_username: "timeclot"
+  # Your Telegram username.
+  telegram_username: "timeclot"
   # GitHub username.
   github_username: ""
   # Your email address.

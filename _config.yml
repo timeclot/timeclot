@@ -1,6 +1,6 @@
 ## Site Meta ##
 # The title of the website.
-title: "TimeClot"
+title: "TIMECLOT"
 # The description of the website
 description: "Фотки из разных мест в разное время"
 # Keywords/tags for you site.
@@ -21,7 +21,7 @@ social:
   # Your Facebook username.
   instagram_username: "timeclot"
   # Your Telegram username.
-  telegram_username: "timeclot"
+  telegram_username: ""
   # GitHub username.
   github_username: ""
   # Your email address.
@@ -31,7 +31,7 @@ social:
 # If you modify this, also modify the `default.scope.path` key below.
 gallery_dir: "gallery"
 # Any valid value of "background-position" CSS attribute.
-image_position: "left center"
+image_position: "center center"
 
 ## Jekyll Configuration ##
 defaults:

@@ -966,7 +966,7 @@
 				cursor: pointer;
 			}
 
-			#viewer .inner .nav-previous 
+			#viewer .inner .nav-previous {
 				transform: scaleX(-1);
 				left: 0;
 			}

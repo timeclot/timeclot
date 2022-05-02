@@ -520,26 +520,6 @@
 		border-radius: 100%;
 	}
 
-	::-webkit-input-placeholder {
-		opacity: 1.0;
-		color: #ccc !important;
-	}
-
-	:-moz-placeholder {
-		opacity: 1.0;
-		color: #ccc !important;
-	}
-
-	::-moz-placeholder {
-		opacity: 1.0;
-		color: #ccc !important;
-	}
-
-	:-ms-input-placeholder {
-		opacity: 1.0;
-		color: #ccc !important;
-	}
-
 	.formerize-placeholder {
 		opacity: 1.0;
 		color: #ccc !important;
@@ -710,16 +690,13 @@
 /* Main */
 
 	#main {
-		-moz-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
-		-webkit-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
-		-ms-transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
 		transition: opacity 0.75s ease, right 0.75s ease, left 0.75s ease, visibility 0.75s;
 		-webkit-overflow-scrolling: touch;
 		position: fixed;
 		top: 0;
 		width: 22.5em;
 		height: 100%;
-		background: #fff;
+		background: #000000;
 		outline: 0;
 		overflow-x: hidden;
 		overflow-y: auto;
@@ -770,7 +747,7 @@
 		@media screen and (max-width: 980px) {
 
 			#main {
-				background: rgba(255, 255, 255, 0.925);
+				background: rgba(0, 0, 0, 0.925);
 			}
 
 				#main .toggle {

@@ -51,8 +51,6 @@
 /* Box Model */
 
 	*, *:before, *:after {
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
 
@@ -74,13 +72,7 @@
 	}
 
 	body.is-loading-0 *, body.is-loading-0 *:before, body.is-loading-0 *:after {
-		-moz-animation: none !important;
-		-webkit-animation: none !important;
-		-ms-animation: none !important;
 		animation: none !important;
-		-moz-transition: none !important;
-		-webkit-transition: none !important;
-		-ms-transition: none !important;
 		transition: none !important;
 	}
 
@@ -113,7 +105,7 @@
 
 	body {
 		background-color: #000;
-		color: #eee;
+		color: #ffffff;
 	}
 
 	body, input, select, textarea {
@@ -125,9 +117,6 @@
 	}
 
 	a {
-		-moz-transition: color 0.25s ease, border-bottom-color 0.25s ease;
-		-webkit-transition: color 0.25s ease, border-bottom-color 0.25s ease;
-		-ms-transition: color 0.25s ease, border-bottom-color 0.25s ease;
 		transition: color 0.25s ease, border-bottom-color 0.25s ease;
 		border-bottom: dotted 1px;
 		color: inherit;
@@ -259,9 +248,6 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out, color 0.25s ease-in-out;
-		-webkit-transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out, color 0.25s ease-in-out;
-		-ms-transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out, color 0.25s ease-in-out;
 		transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out, color 0.25s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
@@ -344,9 +330,6 @@
 		button:disabled,
 		.button.disabled,
 		.button:disabled {
-			-moz-pointer-events: none;
-			-webkit-pointer-events: none;
-			-ms-pointer-events: none;
 			pointer-events: none;
 			opacity: 0.25;
 		}
@@ -759,9 +742,6 @@
 		@media screen and (max-width: 480px) {
 
 			#main {
-				-moz-transition: opacity 0.5s ease, visibility 0.5s;
-				-webkit-transition: opacity 0.5s ease, visibility 0.5s;
-				-ms-transition: opacity 0.5s ease, visibility 0.5s;
 				transition: opacity 0.5s ease, visibility 0.5s;
 				width: 100%;
 				background: #fff;
@@ -821,13 +801,7 @@
 /* Thumbnails */
 
 	#thumbnails {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
 		display: flex;
-		-moz-flex-wrap: wrap;
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		padding: 0 0.75em;
 	}
@@ -853,13 +827,7 @@
 				}
 
 				#thumbnails article .thumbnail:before {
-					-moz-pointer-events: none;
-					-webkit-pointer-events: none;
-					-ms-pointer-events: none;
 					pointer-events: none;
-					-moz-transition: opacity 0.25s ease;
-					-webkit-transition: opacity 0.25s ease;
-					-ms-transition: opacity 0.25s ease;
 					transition: opacity 0.25s ease;
 					content: '';
 					position: absolute;
@@ -896,72 +864,45 @@
 
 	@-moz-keyframes spinner {
 		0% {
-			-moz-transform: rotate(0deg);
-			-webkit-transform: rotate(0deg);
-			-ms-transform: rotate(0deg);
 			transform: rotate(0deg);
 		}
 
 		100% {
-			-moz-transform: rotate(360deg);
-			-webkit-transform: rotate(360deg);
-			-ms-transform: rotate(360deg);
 			transform: rotate(360deg);
 		}
 	}
 
 	@-webkit-keyframes spinner {
 		0% {
-			-moz-transform: rotate(0deg);
-			-webkit-transform: rotate(0deg);
-			-ms-transform: rotate(0deg);
 			transform: rotate(0deg);
 		}
 
 		100% {
-			-moz-transform: rotate(360deg);
-			-webkit-transform: rotate(360deg);
-			-ms-transform: rotate(360deg);
 			transform: rotate(360deg);
 		}
 	}
 
 	@-ms-keyframes spinner {
 		0% {
-			-moz-transform: rotate(0deg);
-			-webkit-transform: rotate(0deg);
-			-ms-transform: rotate(0deg);
 			transform: rotate(0deg);
 		}
 
 		100% {
-			-moz-transform: rotate(360deg);
-			-webkit-transform: rotate(360deg);
-			-ms-transform: rotate(360deg);
 			transform: rotate(360deg);
 		}
 	}
 
 	@keyframes spinner {
 		0% {
-			-moz-transform: rotate(0deg);
-			-webkit-transform: rotate(0deg);
-			-ms-transform: rotate(0deg);
 			transform: rotate(0deg);
 		}
 
 		100% {
-			-moz-transform: rotate(360deg);
-			-webkit-transform: rotate(360deg);
-			-ms-transform: rotate(360deg);
 			transform: rotate(360deg);
 		}
 	}
 
 	#viewer {
-		-moz-transition: opacity 0.75s ease, width 0.75s ease;
-		-webkit-transition: opacity 0.75s ease, width 0.75s ease;
-		-ms-transition: opacity 0.75s ease, width 0.75s ease;
 		transition: opacity 0.75s ease, width 0.75s ease;
 		position: absolute;
 		top: 0;
@@ -971,9 +912,6 @@
 	}
 
 		#viewer .inner {
-			-moz-pointer-events: none;
-			-webkit-pointer-events: none;
-			-ms-pointer-events: none;
 			pointer-events: none;
 			position: absolute;
 			top: 0;
@@ -984,16 +922,10 @@
 		}
 
 			#viewer .inner > * {
-				-moz-pointer-events: auto;
-				-webkit-pointer-events: auto;
-				-ms-pointer-events: auto;
 				pointer-events: auto;
 			}
 
 			#viewer .inner:before {
-				background-image: -moz-linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0)), -moz-linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0));
-				background-image: -webkit-linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0)), -webkit-linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0));
-				background-image: -ms-linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0)), -ms-linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0));
 				background-image: linear-gradient(left, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0)), linear-gradient(right, rgba(16,16,16,0.2), rgba(16,16,16,0) 10em, rgba(16,16,16,0));
 				content: '';
 				display: block;
@@ -1034,10 +966,7 @@
 				cursor: pointer;
 			}
 
-			#viewer .inner .nav-previous {
-				-moz-transform: scaleX(-1);
-				-webkit-transform: scaleX(-1);
-				-ms-transform: scaleX(-1);
+			#viewer .inner .nav-previous 
 				transform: scaleX(-1);
 				left: 0;
 			}
@@ -1047,9 +976,6 @@
 			}
 
 		#viewer .slide {
-			-moz-transition: opacity 0.5s ease-in-out;
-			-webkit-transition: opacity 0.5s ease-in-out;
-			-ms-transition: opacity 0.5s ease-in-out;
 			transition: opacity 0.5s ease-in-out;
 			position: absolute;
 			top: 0;
@@ -1061,9 +987,6 @@
 		}
 
 			#viewer .slide .caption {
-				background-image: -moz-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
-				background-image: -webkit-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
-				background-image: -ms-linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
 				background-image: linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
 				padding: 2em 2em 0.75em 2em ;
 				position: absolute;
@@ -1079,9 +1002,6 @@
 				}
 
 			#viewer .slide .image {
-				-moz-transition: opacity 0.5s ease-in-out;
-				-webkit-transition: opacity 0.5s ease-in-out;
-				-ms-transition: opacity 0.5s ease-in-out;
 				transition: opacity 0.5s ease-in-out;
 				position: absolute;
 				top: 0;
@@ -1094,13 +1014,7 @@
 			}
 
 			#viewer .slide:before {
-				-moz-animation: spinner 1s linear infinite;
-				-webkit-animation: spinner 1s linear infinite;
-				-ms-animation: spinner 1s linear infinite;
 				animation: spinner 1s linear infinite;
-				-moz-transition: opacity 0.5s ease-in-out;
-				-webkit-transition: opacity 0.5s ease-in-out;
-				-ms-transition: opacity 0.5s ease-in-out;
 				transition: opacity 0.5s ease-in-out;
 				content: '';
 				display: block;
@@ -1156,9 +1070,6 @@
 			}
 
 				#viewer .inner .toggle {
-					-moz-transition: opacity 0.75s ease;
-					-webkit-transition: opacity 0.75s ease;
-					-ms-transition: opacity 0.75s ease;
 					transition: opacity 0.75s ease;
 					background-image: url("images/open.svg");
 					opacity: 0;
@@ -1192,13 +1103,7 @@
 		@media screen and (max-width: 480px) {
 
 			#viewer {
-				-moz-transition: opacity 0.5s ease;
-				-webkit-transition: opacity 0.5s ease;
-				-ms-transition: opacity 0.5s ease;
 				transition: opacity 0.5s ease;
-				-moz-transition-delay: 0s;
-				-webkit-transition-delay: 0s;
-				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				opacity: 0;
 			}
@@ -1209,9 +1114,6 @@
 				}
 
 				body.fullscreen #viewer {
-					-moz-transition-delay: 0.5s;
-					-webkit-transition-delay: 0.5s;
-					-ms-transition-delay: 0.5s;
 					transition-delay: 0.5s;
 					opacity: 1;
 				}
